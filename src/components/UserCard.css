@@ -1,0 +1,30 @@
+.Main {
+    width: 350px;
+    border-radius: 0.6em;
+    margin-top: 10rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(30, 30, 30, 0.9);
+    margin: auto; 
+    text-align: center;
+  }
+  .Card{
+    background-color: rgb(87, 4, 55) !important;
+  }
+  .avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .info-container{
+    border-radius: 10px;
+    background-color: rgb(208, 213, 226);
+  }
+  .title {
+    font-weight: bold !important;
+  }  
+  .bio{
+     text-align: justify;
+     color: black;
+  }
