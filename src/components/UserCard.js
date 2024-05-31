@@ -16,7 +16,7 @@ function UserCard(props) {
     <div className='Main'>
     <Card className='Card'>
         <div className='avatar-container'>
-            <CardMedia component="img" 
+            <CardMedia component="img" className='image-container'
                 style={{ width: "60%", borderRadius: "100%", marginTop:"30",border: "2px double #ccc"}} image={avatar} ></CardMedia>
         </div>
         <div className='info-container'>
@@ -24,18 +24,9 @@ function UserCard(props) {
             title={props.Name} subheader={props.Designation}
             titleTypographyProps={{ className: 'title' }}
             subheaderTypographyProps={{ className: 'subheader' }}/>  
-      {/* <CardHeader 
-        title={props.Name}
-        subheader={props.Designation}
-      /> */}
       <CardContent>
         <Typography variant="body2" className='bio'>{props.Bio}</Typography>
       </CardContent>
-
-      <CardActions disableSpacing>
-        <IconButton aria-label="Gmail"><EmailIcon /></IconButton>
-        <IconButton aria-label="Youtube"><YouTubeIcon /></IconButton>
-      </CardActions>
       </div>
     </Card>
    </div>

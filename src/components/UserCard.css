@@ -7,6 +7,10 @@
     margin: auto; 
     text-align: center;
   }
+  .image-container:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+    transform: scale(1.05); /* Slightly scale the div on hover */
+  }
   .Card{
     background-color: rgb(87, 4, 55) !important;
   }
@@ -23,8 +27,14 @@
   }
   .title {
     font-weight: bold !important;
+    font-family:monospace!important;
   }  
+  .subheader{
+    font-family:monospace!important;
+    color: rgb(41, 40, 40) !important;
+  }
   .bio{
      text-align: justify;
      color: black;
+     font-family:monospace!important;
   }
